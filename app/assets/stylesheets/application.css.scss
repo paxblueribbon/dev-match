@@ -18,10 +18,11 @@
 
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
-    color: white;
 }
 
-body, .navbar {
+.navbar, .home-callout{
+    
+    //background gradient
     
     //gradient provided by http://twitter.com/_ighosh at uigradients.com
 background: #000000; /* fallback for old browsers */
@@ -29,7 +30,27 @@ background: -webkit-linear-gradient(to left, #000000 , #53346D); /* Chrome 10-25
 background: linear-gradient(to left, #000000 , #53346D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
         
+        
+    //navbar styles
+        
 .navbar {
     border: none;
-    
+}
+
+.navbar-default .navbar-brand, 
+.navbar-default .navbar-nav > li > a {
+    color:white;
+    &:hover {
+        color: white;
+        opacity: 0.75;
+    }
+}
+
+
+
+.home-callout {
+    color: white;
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
