@@ -48,6 +48,10 @@ background: linear-gradient(to left, #000000 , #53346D); /* W3C, IE 10+/ Edge, F
     }
 }
 
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
 
     // homepage styles 
 .home-callout {
