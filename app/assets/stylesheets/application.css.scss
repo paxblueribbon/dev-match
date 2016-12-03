@@ -72,6 +72,7 @@ background: linear-gradient(to left, #000000 , #53346D); /* W3C, IE 10+/ Edge, F
 .navbar-default .navbar-toggle {
   border: 2px solid white;
   &:hover, &:focus {
-    background-color: #00c6ff;
+    background-color: transparent;
+
   }
 }
